@@ -7,7 +7,7 @@ import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class useless {
+public class Useless {
 
     public void establishTCP() throws IOException {
         Log.d("TCP", "Client: Connecting...");
