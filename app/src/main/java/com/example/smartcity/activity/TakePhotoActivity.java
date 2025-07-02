@@ -71,6 +71,9 @@ public class TakePhotoActivity extends AppCompatActivity {
                 .penaltyLog().penaltyDeath().build());
 
         System.out.println("123");
+        System.out.println("1234");
+        System.out.println("12345");
+        System.out.println("123456");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_take_photo);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
