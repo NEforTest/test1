@@ -72,14 +72,15 @@ public class TakePhotoActivity extends AppCompatActivity {
 
         System.out.println("123");
         System.out.println("1234");
+
         System.out.println("12345");
-        System.out.println("123456");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_take_photo);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         btn_photo = findViewById(R.id.btn_photo);
         img = findViewById(R.id.img);
 
+        System.out.println("12345");
         /**
          * 解决android7调用照相机后直接奔溃问题
          */
