@@ -75,9 +75,13 @@ public class TakePhotoActivity extends AppCompatActivity {
 
         System.out.println("12345");
         super.onCreate(savedInstanceState);
+        System.out.println("12345");
         setContentView(R.layout.activity_take_photo);
+        System.out.println("12345");
         toolbar = (Toolbar) findViewById(R.id.toolbar);
+        System.out.println("12345");
         btn_photo = findViewById(R.id.btn_photo);
+        System.out.println("12345");
         img = findViewById(R.id.img);
 
         System.out.println("12345");
@@ -90,7 +94,9 @@ public class TakePhotoActivity extends AppCompatActivity {
             builder.detectFileUriExposure();
         }
         checkPermission();
+        System.out.println("12345");
         initListener();
+        System.out.println("12345");
 
 
 
