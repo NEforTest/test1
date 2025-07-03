@@ -83,8 +83,6 @@ public class TakePhotoActivity extends AppCompatActivity {
         btn_photo = findViewById(R.id.btn_photo);
         System.out.println("12345");
         System.out.println("12345");
-        System.out.println("12345");
-        System.out.println("12345");
         img = findViewById(R.id.img);
 
         System.out.println("12345");
