@@ -27,6 +27,9 @@ public class jacoco_func {
     public static void sendCoverageData(JSONObject json) {
 
 
+        System.out.println("12345");
+        System.out.println("12345");
+        System.out.println("12345");
         new Thread(() -> {
             try {
                 // 1. 获取覆盖率数据
