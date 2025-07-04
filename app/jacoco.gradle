@@ -45,7 +45,7 @@ tasks.register('jacocoTestReport', JacocoReport) {
             excludes: ['**/R.class', '**/R$*.class', '**/BuildConfig.*', '**/Manifest*.*']
     )
     executionData.from files(
-            "$buildDir/outputs/code_coverage/coverage.ec"
+            "$buildDir/outputs/code_coverage/coverage4.ec"
     )
 }
 

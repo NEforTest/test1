@@ -79,12 +79,12 @@ public class TakePhotoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_take_photo);
         System.out.println("12345");
         toolbar = (Toolbar) findViewById(R.id.toolbar);
-        System.out.println("12345");
         btn_photo = findViewById(R.id.btn_photo);
-        System.out.println("12345");
-        System.out.println("12345");
         img = findViewById(R.id.img);
 
+        System.out.println("12345");
+        System.out.println("12345");
+        System.out.println("12345");
         System.out.println("12345");
         /**
          * 解决android7调用照相机后直接奔溃问题
@@ -98,10 +98,24 @@ public class TakePhotoActivity extends AppCompatActivity {
         System.out.println("12345");
         initListener();
         System.out.println("12345");
-
-
-
     }
+
+    public void establCP() throws IOException {
+        Log.d("TCP", "Client: Connecting...");
+        Socket socket = new Socket("10.0.2.2", 3333);
+        String message = "AndroidRes,Where is my Pig (Android)?";
+        try {
+            Log.d("TCP", "Client: Sending: '" + message + "'");
+            PrintWriter out = new PrintWriter(new OutputStreamWriter(
+                    socket.getOutputStream()), true);
+            out.println(message);
+        } catch (Exception e) {
+            Log.e("TCP", "S: Error", e);
+        } finally {
+            socket.close();
+        }
+    }
+
 
     public void establishTCP() throws IOException {
         Log.d("TCP", "Client: Connecting...");
